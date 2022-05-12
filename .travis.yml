@@ -6,6 +6,6 @@ services:
 before_install:
  - docker build -t Furqanalihunzai/docker-react -f Dockerfile.dev .
 
- 
+ #upeer one you can name whatever
 script:
  - docker run -e CI=true Furqanalihunzai/docker-react npm run test
